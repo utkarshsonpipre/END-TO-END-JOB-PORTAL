@@ -11,7 +11,6 @@ Welcome to the **Job Portal Web App** — a fully functional and responsive plat
 
 ## 📸 Preview
 
-> Screenshots or GIF demos can go here.
 > - Login page
 > - ![Screenshot_25-6-2025_183918_end-to-end-job-portal-1 onrender com](https://github.com/user-attachments/assets/33805708-fd1d-4c55-909e-8e8075d0879f)
 > - Homepage
