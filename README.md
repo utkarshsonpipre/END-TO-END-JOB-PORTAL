@@ -7,8 +7,6 @@ Welcome to the **Job Portal Web App** — a fully functional and responsive plat
 ## 🌐 Live Demo
 
 🚀 [**Click to Visit the Live Website**](https://end-to-end-job-portal-1.onrender.com/)  
-🧪 *(Replace with your deployed URL — e.g., Vercel frontend + Render backend)*
-
 ---
 
 ## 📸 Preview
@@ -95,3 +93,70 @@ Welcome to the **Job Portal Web App** — a fully functional and responsive plat
 - MongoDB Atlas Account
 - Cloudinary Account
 - Git
+
+- ### 🛠 Backend Setup
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the `backend` directory and add:
+   ```env
+   MONGO_URI=your_mongodb_atlas_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   ```
+4. Start the backend server:
+   ```bash
+   npm start
+   ```
+
+### 🌐 Frontend Setup
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file in the `frontend` directory and add:
+   ```env
+   REACT_APP_API_URL=http://localhost:5000/api
+   ```
+4. Start the frontend development server:
+   ```bash
+   npm start
+   ```
+
+### 🚀 Running the Application
+- Ensure MongoDB Atlas and Cloudinary are configured.
+- Run both backend and frontend servers.
+- Open `http://localhost:3000` in your browser to view the app.
+
+---
+
+## 📂 Project Structure
+
+```
+JobPortal-WebD/
+├── backend/                # Node.js + Express.js server
+│   ├── models/             # Mongoose schemas
+│   ├── routes/             # API routes
+│   ├── controllers/        # Request handlers
+│   ├── middleware/         # Authentication & error handling
+│   └── .env                # Environment variables
+├── frontend/               # React.js frontend
+│   ├── src/                # React components, pages, and assets
+│   ├── public/             # Static assets
+│   └── .env                # Frontend environment variables
+├── README.md               # Project documentation
+└── package.json            # Project metadata and scripts
+```
+
+---
